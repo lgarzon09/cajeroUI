@@ -60,11 +60,6 @@ export default {
                 username: 'camilo24'
             }
         })
-    },
-
-    beforeCreate: function () {
-        localStorage.setItem('current_username', 'camilo24')
-        localStorage.setItem('isAuth', true)
     }
 }
 </script>
